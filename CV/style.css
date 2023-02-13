@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(26,79,210,1) 0%, rgba(255,255,255,1) 26%);;
+}
+
+
+
+
+header{
+    background: linear-gradient(160deg, #ADC1F2 1%, #1A4FD2 99% ) ;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    font-family: 'Anton', sans-serif;
+    
+    
+}
+
+
+.image{
+    background-image: url(Foto.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: solid 5px #1A4FD2 ;
+    margin: 30px auto;
+}
+
+.image:hover{
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px 6px #1A4FD2;
+    transition: 0.5s;
+}
+
+.header-info {
+    text-align: justify;
+    font-size: 19px;
+    color: white;
+}
+
+.header-info h1{
+    text-decoration: underline solid 10px #86A6F4;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    font-family:  'Righteous', cursive;
+    font-size: 18px;
+    text-align: justify;
+    
+    
+}
+
+.info-container ul{
+    margin: 35px 0;
+}
+
+
+
+.info-container hr{
+    width: 90%;
+}
+
+.info-container i{
+    margin: 0 5px;
+}
+
+.info-container h3{
+    text-decoration: underline solid 5px #1A4FD2;
+}
+
+.info-container h3:hover {
+    font-size: 26px;
+    transition: 0.5s;
+    opacity: 0.8;
+    
+}
+
+.skills-container{
+    background: whitesmoke;
+    border-radius: 15px;
+    margin: 30px 30px;
+    padding: 0 40px;
+}
+
+.barra-ingles{
+    background: gray;
+    border: none;
+    border-radius: 15px;
+    width: 40%;
+    height: 15px;
+    margin: 5px 0;
+
+}
+
+.progreso-ingles{
+    background: orange;
+    border: none;
+    border-radius: 15px;
+    height: 15px;
+    width: 70%;
+
+
+}
+
+.progreso-español{
+    background: orange;
+    border: none;
+    border-radius: 15px;
+    height: 15px;
+    width: 40%;
+    margin: 5px 0;
+
+
+}
+
+
+
+.progreso-español:hover{
+   opacity: 0.9;
+   width: 50%;
+   box-shadow: 0px 0px 17px 12px #D1AF5C;
+}
+
+.barra-ingles:hover{
+    opacity: 0.9;
+    width: 50%;
+    box-shadow: 0px 0px 17px 12px #D1AF5C;
+}
+
+.progreso-ingles:hover{
+    opacity: 0.9;
+    box-shadow: 0px 0px 17px 12px #D1AF5C;
+}
+
+
+
+.experience-container{
+    background: whitesmoke;
+    border-radius: 15px;
+    margin: 30px 30px;
+    padding: 0 40px;
+}
+
